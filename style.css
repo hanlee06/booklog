@@ -1,0 +1,60 @@
+body{
+ font-family: Arial, sans-serif; /* 전체페이지의폰트스타일지정*/
+ margin: 0;
+ padding: 0;
+ background-color: #f4f4f4; /* 배경색설정*/
+ text-align: center; /* 제목을중앙정렬*/
+ }
+ h1{
+ color: #333; /* 제목의색상지정*/
+ text-align: left; /* 제목을중앙정렬*/
+ }
+ h2{
+ color: #07289f; /* 제목의색상지정*/
+ text-align: left; /* 제목을중앙정렬*/
+ }
+ h3{
+ color: #2d0369; /* 제목의색상지정*/
+ text-align: left; /* 제목을중앙정렬*/
+ }
+ p{
+ font-size: 16px; /* 문단의폰트크기지정*/
+ color: #666; /* 문단의색상지정*/
+ line-height: 1.2; /* 문단의줄간격지정*/
+ margin: 10px; /* 문단주위여백지정*/
+ text-align: left; /* 제목을중앙정렬*/
+ }
+ a{
+ color: #000; /* 링크의색상지정*/
+ text-decoration: none; /* 링크의밑줄제거*/
+ text-align: center; /* 제목을중앙정렬*/
+ }
+ a:hover {
+ color: blue; /* 마우스오버시링크색상변경*/
+ text-align: center; /* 제목을중앙정렬*/
+ }
+ ul{
+ list-style: none; /* 목록의스타일없애기*/
+ padding: 0;
+ text-align: left; /* 제목을중앙정렬*/
+ }
+ li{
+ background-color: #fff; /* 목록항목배경색지정*/
+ margin-bottom: 5px; /* 목록항목사이의여백지정*/
+ padding: 5px; /* 목록항목내부여백지정*/
+ border: 1px solid #ddd; /* 목록항목테두리지정*/
+ text-align: left; /* 제목을중앙정렬*/
+ }
+img{
+ border: 1px solid #ddd;
+ border-radius: 4px;
+ padding: 5px;
+ width: 320px;
+ }
+ div{
+ margin: 20px; /* div 주위여백지정*/
+ padding: 20px; /* div 내부여백지정*/
+ background-color: yellow; /* 배경색지정*/
+ border: 1px solid #ddd; /* 테두리지정*/
+ text-align: center; /* 제목을중앙정렬*/
+ }
